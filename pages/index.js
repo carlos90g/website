@@ -2,14 +2,13 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import loadDB from '../firebase.config';
+import loadFirebase from '../firebase.config';
 import { getSortedPostsData } from '../lib/posts'
 
 export async function getStaticProps() {
   // Initialize Firebase
   const firebase = await loadFirebase();
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  firebase.analytics;
 
   const db = firebase.firestore();
   let result = await new Promise((resolve, reject) => {
