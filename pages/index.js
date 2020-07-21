@@ -53,7 +53,7 @@ export default function Home({ allPostsData }) {
           or visit my <a href="https://www.linkedin.com/in/carlos90g/">linkedin</a> profile</p>
         <p>
           I've built this website following this <a href="https://nextjs.org/learn"> Next.js tutorial </a>; 
-          If you are curious it's open source and the code is available @ <a href="https://nextjs.org/learn"> Github </a>.
+          If you are curious it's open source and the code is available @ <a href="https://github.com/carlos90g/website"> Github </a>.
         </p>
       </section>
       <section className={utilStyles.headingMd}></section>
